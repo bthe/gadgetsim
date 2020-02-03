@@ -20,7 +20,6 @@
 ##' opt$numobs <- 13
 ##' @export
 gadget.options <- function(type=c('simple2stock','spawning')){
-  warning('The gadget-skeleton functions are deprecated, please adapt your scripts to the new gadget-update functions')
   opt <- list(
     #############################################################
     #
